@@ -1,0 +1,16 @@
+{
+  "name": "nuke-scammers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gogoscammers": "npx playwright test --ui",
+    "generate-code": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}
