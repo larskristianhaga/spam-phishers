@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gogoscammers": "npx playwright test --ui",
+    "gogoscammers": "npx playwright test",
+    "gogoscammers-ui": "npx playwright test --ui",
     "generate-code": "npx playwright codegen"
   },
   "keywords": [],
